@@ -16,7 +16,8 @@ pipeline {
 				echo 'Deploying..'
 			}
 		}
-	} post {
+	} 
+	post {
 		success {
 			echo 'Build successful'
 		}
