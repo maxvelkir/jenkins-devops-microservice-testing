@@ -24,5 +24,8 @@ pipeline {
 		failure {
 			echo 'Build failed'
 		}
+		always {
+			echo 'Build complete'
+		}
 	}
 }
